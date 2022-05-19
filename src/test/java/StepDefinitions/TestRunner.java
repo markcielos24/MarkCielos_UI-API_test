@@ -13,7 +13,7 @@ import io.cucumber.junit.Cucumber;
                 "html:target/HTMLReports.html",
                 "json:target/cucumber.json",
                 "junit:target/XMLreports.xml"}
-        , tags="@regression"
+        , tags="@UI"
 )
 
 public class TestRunner {
