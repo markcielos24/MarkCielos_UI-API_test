@@ -20,7 +20,7 @@ Feature: feature to test New Home Loan (ENQUIRE) functionality
     Examples: 
       | Topic                          | Existing_Customer | NAB_ID | First_Name | Last_Name | State | Phone     | Email                  |
       | Buying a new property          | Yes               |   1234 | Mark       | Cielos    | NSW   | 123456789 | markcielos@test.email  |
-      | Buying a new property          | No                |      0 | Karl       | Thomas    | TAS   | 123456789 | karlthomas@test.email  |
-      | Switching my loan to NAB       | Yes               |   5678 | Harry      | Potter    | WA    | 123456789 | harrypotter@test.email |
-      | First home loan deposit scheme | No                |      0 | Link       | Zelda     | SA    | 123456789 | linkzelda@test.email   |
-      | Family home guarantee          | Yes               |   9012 | Shin       | Ryu       | VIC   | 123456789 | shinryu@test.email     |
+#      | Buying a new property          | No                |      0 | Karl       | Thomas    | TAS   | 123456789 | karlthomas@test.email  |
+#      | Switching my loan to NAB       | Yes               |   5678 | Harry      | Potter    | WA    | 123456789 | harrypotter@test.email |
+#      | First home loan deposit scheme | No                |      0 | Link       | Zelda     | SA    | 123456789 | linkzelda@test.email   |
+#      | Family home guarantee          | Yes               |   9012 | Shin       | Ryu       | VIC   | 123456789 | shinryu@test.email     |
