@@ -1,5 +1,5 @@
 @regression @UI
-Feature: feature to test New Home Loan (ENQUIRE) functionality
+Feature: feature to test New Home Loan (ENQUIRE) functionality.
 
   Scenario Outline: Validate New Home Loan (ENQUIRE) is working
     Given browser is open

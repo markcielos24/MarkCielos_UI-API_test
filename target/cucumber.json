@@ -1,0 +1,256 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-11T08:25:46.459Z",
+        "line": 22,
+        "name": "Validate New Home Loan (ENQUIRE) is working",
+        "description": "",
+        "id": "feature-to-test-new-home-loan-(enquire)-functionality;validate-new-home-loan-(enquire)-is-working;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2895264000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "browser is open",
+            "match": {
+              "location": "StepsDefinitions.Enquire_NewHomeLoan_Steps_PF.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4022269100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepsDefinitions.Enquire_NewHomeLoan_Steps_PF.user_is_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4228251100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user go to Home loans",
+            "match": {
+              "location": "StepsDefinitions.Enquire_NewHomeLoan_Steps_PF.user_go_to_Home_loans()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1079514600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click Request a call back",
+            "match": {
+              "location": "StepsDefinitions.Enquire_NewHomeLoan_Steps_PF.user_click_Request_a_call_back()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5778311900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click I need help call me back",
+            "match": {
+              "location": "StepsDefinitions.Enquire_NewHomeLoan_Steps_PF.user_click_I_need_help_call_me_back()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading \u0027shadowRoot\u0027)\n  (Session info: chrome\u003d103.0.5060.114)\nBuild info: version: \u00274.0.0-alpha-7\u0027, revision: \u0027de8579b6d5\u0027\nSystem info: host: \u0027DESKTOP-LF2SCL5\u0027, ip: \u0027192.168.100.37\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002718.0.1.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\mcielos\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53782}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 034eb89b25b609fe647c71eef67afdf0\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:436)\r\n\tat StepsDefinitions.Enquire_NewHomeLoan_Steps_PF.user_click_New_home_loans_and_next_button(Enquire_NewHomeLoan_Steps_PF.java:90)\r\n\tat ✽.user click New home loans and next button(file:///C:/Users/mcielos/Desktop/MarkCielos_UI-API_test/src/test/resources/Features/Enquire_NewHomeLoan.feature:10)\r\n",
+              "duration": 30450200,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "user click New home loans and next button",
+            "match": {
+              "location": "StepsDefinitions.Enquire_NewHomeLoan_Steps_PF.user_click_New_home_loans_and_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user select a loan Buying a new property and click next button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Buying a new property",
+                  "offset": 19
+                }
+              ],
+              "location": "StepsDefinitions.Enquire_NewHomeLoan_Steps_PF.user_select_a_loan_topic(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "provide if existing customer Yes and NAB ID 1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yes",
+                  "offset": 29
+                },
+                {
+                  "val": "1234",
+                  "offset": 44
+                }
+              ],
+              "location": "StepsDefinitions.Enquire_NewHomeLoan_Steps_PF.provide_if_existing_customer_and_NAB_ID(java.lang.String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "provide firstname Mark",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mark",
+                  "offset": 18
+                }
+              ],
+              "location": "StepsDefinitions.Enquire_NewHomeLoan_Steps_PF.provide_firstname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "provide lastname Cielos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cielos",
+                  "offset": 17
+                }
+              ],
+              "location": "StepsDefinitions.Enquire_NewHomeLoan_Steps_PF.provide_lastname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "provide state NSW",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NSW",
+                  "offset": 14
+                }
+              ],
+              "location": "StepsDefinitions.Enquire_NewHomeLoan_Steps_PF.provide_state(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "provide phone 123456789",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456789",
+                  "offset": 14
+                }
+              ],
+              "location": "StepsDefinitions.Enquire_NewHomeLoan_Steps_PF.provide_phone(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "provide email markcielos@test.email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "markcielos@test.email",
+                  "offset": 14
+                }
+              ],
+              "location": "StepsDefinitions.Enquire_NewHomeLoan_Steps_PF.provide_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user take screenshot and close browser",
+            "match": {
+              "location": "StepsDefinitions.Enquire_NewHomeLoan_Steps_PF.user_take_screenshot_and_close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@UI"
+          }
+        ]
+      }
+    ],
+    "name": "feature to test New Home Loan (ENQUIRE) functionality",
+    "description": "",
+    "id": "feature-to-test-new-home-loan-(enquire)-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Enquire_NewHomeLoan.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@UI",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    ]
+  }
+]
