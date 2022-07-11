@@ -38,7 +38,11 @@ public class Enquire_NewHomeLoan_Steps_PF {
 
     @Given("browser is open")
     public void browser_is_open() {
+<<<<<<< HEAD
         //tes
+=======
+        //test1
+>>>>>>> 8581e7b80b47368772360a27c57af443e943b263
         projectpath = System.getProperty("user.dir");
 
         System.setProperty("webdriver.chrome.driver", projectpath+"/src/test/resources/drivers/chromedriver.exe");
